@@ -32,8 +32,8 @@ var server = http.createServer(function (req, res) {
     }
 });
 
-# Listen on port 3000 and IP defaults running on 127.0.0.1
+// Listen on port 3000 and IP defaults running on 127.0.0.1
 server.listen(port);
 
-# message displays on the terminal
+// message displays on the terminal
 console.log('Server started running at IP address http://127.0.0.1:' + port + '/');
